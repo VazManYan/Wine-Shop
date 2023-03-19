@@ -11,8 +11,8 @@ const Header = () =>{
                 <li><a href="/visit">Visit</a></li>
             </div>
             <div className="soc">
-                <li className="insta"><a href="#"></a></li>
-                <li className="face"><a href="#"></a></li>
+                <li className="insta"><a href="https://www.instagram.com/"> </a></li>
+                <li className="face"><a href="https://www.facebook.com/"> </a></li>
             </div>
         </div>
 
