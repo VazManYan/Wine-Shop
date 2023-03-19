@@ -19,7 +19,7 @@ const Slide = () => {
   return (
     <div>
       <div style={containerStyles}>
-        <ImageSlider slides={slides} parentWidth={window.outerWidth} />
+        <ImageSlider slides={slides} parentWidth={window.innerWidth} />
       </div>
     </div>
   );
