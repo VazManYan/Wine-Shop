@@ -1,0 +1,115 @@
+.Home {
+   width: 100%;
+}
+.tabList {
+    margin-top: 7%;
+
+    display: flex;
+    background-color: white;
+}
+.tabHeadWine {
+    height: 150px;
+    width: 24%;
+    background: url(/Pictures/wine-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin-right: auto;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+   
+}
+
+.tabHeadWine:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadWine p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadCheese {
+    height: 150px;
+    width: 24%;
+    background: url(/Pictures/cheese-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: auto;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+
+.tabHeadCheese:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadCheese p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadFish {
+    height: 150px;
+    width: 24%;
+    background: url(/Pictures/fish-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: auto;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+
+.tabHeadFish:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadFish p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadSalad {
+    height: 150px;
+    width: 24%;
+    background: url(/Pictures/salad-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin-left: auto;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+.tabHeadSalad:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadSalad p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.SlideDiv {
+
+    height: 450px;
+    margin-top: 30px;
+    
+}
